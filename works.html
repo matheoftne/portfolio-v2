@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="img2-container" id="logo-container"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="works.html">Works</a></li>
+            </ul>
+        </nav>
+        <div style="min-width: 7em; max-width: 7em;">
+            <a class="btn" style="font-size: 0.8em; text-decoration: none;" href="contact.html">Let's talk!</a>
+        </div>
+    </header>
+    <main>
+        <div style="display: flex; justify-content: center;">
+            <div style="display: flex; align-items: center; gap: 1em;">
+                <i style="font-size: 3em;" class="fa-solid fa-terminal"></i>
+                <h1 id="title-works">my works</h1>
+                <span class="cursor" style="width: 0.5em; height: 60%;"></span>                  
+            </div>
+        </div>
+        <section class="works-container">
+            <div class="container works">
+                <div class="img-works-container" id="screen-karst"></div>
+                <div class="text-container">
+                    <div class="text-work">
+                        <h3>Karst</h3>
+                        <p>E-commerce - React</p>
+                    </div>
+                    <a href="https://github.com/matheoftne/karst-react-main" target="_blank" class="btn-secondary"><i class="fa-solid fa-location-arrow"></i></a>
+                </div>
+            </div>
+            <div class="container works">
+                <div class="img-works-container" id="screen-tiky"></div>
+                <div class="text-container">
+                    <div class="text-work">
+                        <h3>Tiky</h3>
+                        <p>Web application - React</p>
+                    </div>
+                    <a href="https://github.com/matheoftne/tiky" target="_blank" class="btn-secondary"><i class="fa-solid fa-location-arrow"></i></a>
+                </div>
+            </div>
+            <div class="container works">
+                <div class="img-works-container" id="screen-laroma"></div>
+                <div class="text-container">
+                    <div class="text-work">
+                        <h3>Laroma</h3>
+                        <p>One page - React & Express</p>
+                    </div>
+                    <a href="https://github.com/matheoftne/laroma" target="_blank" class="btn-secondary"><i class="fa-solid fa-location-arrow"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="img2-container" id="img-credentials"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="works.html">Works</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="./script.js"></script>
+    <script defer src="https://kit.fontawesome.com/732a0e58b0.js" crossorigin="anonymous"></script>
+</body>
+</html>
