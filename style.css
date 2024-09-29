@@ -935,12 +935,12 @@ footer {
         height: 170vh;
     }
 
-    #social-container {
+    #profiles-index {
         min-width: 26em;
         max-width: 26em;
     }
 
-    #social-icon {
+    #profiles-index {
         display: flex;
         justify-content: center;
         min-width: 24em;
