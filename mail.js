@@ -8,11 +8,11 @@ function sendEmail() {
     const body = `Nom: ${fullName.value}<br> Email: ${email.value}<br> Message: ${message.value}`;
 
     Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "matheo.fontaine.pro@gmail.com",
-        Password : "B6DB6E5D3E0B652F80E8E06C586144678F7A",
-        To : 'matheo.fontaine.pro@gmail.com',
-        From : "matheo.fontaine.pro@gmail.com",
+        Host : process.env.HOST,
+        Username : process.env.USERNAME,
+        Password : process.env.PASSWORD,
+        To : process.env.TO,
+        From : process.env.FROM,
         Subject : subject.value,
         Body : body
     }).then(
